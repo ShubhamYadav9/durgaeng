@@ -29,10 +29,11 @@ const App = () => {
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<ServicesPage />} />
-
-          {/* <Testimonial />
-      <BlogsComp /> */}
         </Routes>
+
+        {/* <Testimonial />
+      <BlogsComp /> */}
+
         <Footer />
       </Router>
     </div>
